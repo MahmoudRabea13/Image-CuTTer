@@ -1,0 +1,113 @@
+body{
+  background-color: #e0e5ec;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.container{
+  background-color: #e0e5ec;
+}
+  h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#2F827C;
+    font-weight: normal;
+    color: #e0e5ec;
+    border-radius: 50% 0%;
+    border-style:solid;
+  }
+  .form-group{
+    color: #2F827C;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5px;
+    justify-content: center;
+  }
+
+  .box {
+    display: flex;
+    position: absolute;
+    text-align: center;
+}
+
+
+  .btn{
+    background-color:fbf8f8;
+    color: #2F827C solid;
+    border-radius: 20px;
+    border: 3px solid  #2F827C;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    display: inline-flex;
+    cursor: pointer;
+    margin-left: 5px;
+    justify-content: center;
+  }
+  .text {
+    color: #2F827C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+  .btn:hover{
+    background-color: #7c7c7c;
+  }
+  .hide{
+    display: none;
+  }
+  .box-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 0.5px;
+  }
+  .result2{
+    filter: grayscale(100%);
+    width: 50%;
+    height: 50%;
+  }
+  .result{
+    filter: grayscale(100%);
+    width: 50%;
+    height: 50%;
+  }
+  .result3{
+    width: 100%;
+    height: 90%;
+  }
+  .result3:hover , .result2:hover , .result:hover {
+    filter:opacity(50%);
+  }
+
+  p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+}
+
+
+.custom-inp{
+
+  padding: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+}
+.custom-inp::-webkit-file-upload-button{
+  background-color:fbf8f8;
+  color: #2F827C solid;
+  border-radius: 20px;
+  border: 3px solid  #2F827C;
+  padding: 0.5em 1em;
+  margin-left: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight:500;
+}

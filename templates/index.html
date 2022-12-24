@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/jpg" href="/static/images/icon.jpg"/>
+        <title>Image MiXer</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="/static/css/cropper.min.css">
+        <link rel="stylesheet" href="/static/css/cropper.css">
+    </head>
+    <body>
+        <div class = "container">
+            <h1 class="text-center">
+                Image MiXer
+            </h1>
+            <div class = "form-group">
+                <input type="file" id="file-input1" class="custom-inp"  required accept="image/">
+                <input type="file" id="file-input2" class="custom-inp"  required accept="image/">
+                <p>Result :</p>
+            </div>
+            <div class = "box-2">
+                <div class= "result"> </div>
+                <div class= "result2"> </div>
+                <img src="  " alt="User Image" id="User-img" class=" result3 hide" style="display: none;">
+            </div>
+            <div class="box">
+                <button class="btn save hide" id="button1" >phase 1 & mag 2</button>
+                <button class="btn save-2 hide" id="button2">phase2 & mag1</button>
+                <p class="text selected1 hide"> Phase 1 & Magnitude 2 are selected </p>
+                <p class="text selected2 hide"> Phase 2 & Magnitude 1 are selected </p>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="/static/js/cropper.min.js"></script>
+    <script  src="/static/js/upload.js"> </script>
+    </html>
